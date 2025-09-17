@@ -1,0 +1,8 @@
+.idea/
+.idea
+.venv/
+.logs/
+.env
+.idea/misc.xml
+__pycache__/patch_ultralytics.cpython-312.pyc
+data_sirius/

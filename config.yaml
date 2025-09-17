@@ -1,0 +1,27 @@
+# Конфигурация для детекции логотипа Т-Банка с Google Gemini API
+
+# Настройки Google Gemini API
+gemini:
+  api_key: GEMINI_API_KEY
+  model_name: "gemini-2.0-flash-exp"
+  temperature: 0.1
+  max_tokens: 1000
+
+# Настройки сервера
+server:
+  host: "0.0.0.0"
+  port: 8000
+
+# Настройки файлов
+files:
+  max_size: 10485760  # 10MB
+  supported_formats:
+    - "image/jpeg"
+    - "image/png"
+    - "image/bmp"
+    - "image/webp"
+
+# Настройки логирования
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
